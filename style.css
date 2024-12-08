@@ -1,0 +1,461 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+@keyframes appear{
+    from{
+        scale: 0.6;
+        opacity: 0.1;
+    }
+    to{
+        scale:1;
+        opacity: 1;
+    }
+
+}
+.logo{
+    font-weight: 700;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.nav-bar{
+    align-items: center;
+    background-color: #3BAD6E;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+
+}
+.menu{
+    margin-right: 60px;
+    display: flex;
+    gap: 50px;
+    color: #000;
+}
+
+.menu .Acc{
+    border-bottom: solid #ec1206;
+}
+head{
+    width: 500px;
+    height: 40px;
+}
+.head img{
+    width: 100%;
+    height: 720px;
+}
+.head .Text{
+    position: absolute;
+    bottom: 35%;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.Text h1{
+    font-size: 25px;
+}
+.Text input{
+    font-size: 15px;
+    color: #fff;
+    background-color: #3BAD6E;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+
+section .topic{
+    margin-bottom:80px ;
+    position: relative;
+}
+
+.type {
+    cursor: pointer;
+    display: flex;
+justify-content: space-evenly;
+gap: 50px;
+margin-top: 30px;
+width: 100%;
+margin-bottom: 10%;
+animation: appear linear ;
+animation-range-start: cover 0%;
+animation-range-end: cover 80%;
+}
+.type .pic{
+    position: relative;
+  width: 150px;
+ 
+}
+.type img{
+    height: 135px;
+}
+
+article{
+    position: relative;
+    top: 250px;
+    right: 25%;
+    row-gap: 5px;
+    background-color: rgb(166, 239, 239);
+    width: 250px;
+    height: 90px;
+}
+article h4{
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    margin: 13px;
+    border: #000000 solid;
+    padding: 9px;
+    border-radius: 5px;
+    color: #ec1206;
+    cursor: pointer;
+}
+    article span{
+        position: relative;
+        bottom: 4px;
+        margin: 13px;
+        font-size: 22px;
+        color: #ec1206;
+    }
+    article p{
+        margin: 11px;
+    }
+     article h3{
+        margin: 11px;
+    }
+.voirplus{
+    margin-top: 20px;
+    bottom: 15px;
+position: relative;
+    left: 47%;
+    width: 100px;
+    height: 50px;
+    background: #000000;
+    color: #fff;
+    border-radius: 25px;
+}
+         
+                       /* FAQ */
+
+                 
+.faq{
+    margin-top: 25px;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    position: relative;
+    margin-left: 45%;
+    padding-bottom: 40px;
+}
+.faq p{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.faq span{
+    width: 50px;
+    border-top: 1px solid black;
+    margin-top: 18px;
+}
+
+.design{
+    text-align: center;
+    align-items: center;
+    position: relative;
+}     
+.rectangle{
+    margin-bottom: 90px;
+    background: #3BAD6E;
+    margin-left: 10%;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rectangle span{
+    aspect-ratio: 17/4;
+    background: #000000;
+    width: 25px;
+    height: 22px;
+    border-radius: 50%;
+}
+.span1{
+    position: relative;
+    margin-left: -15px;
+}
+.span2{
+    position: relative;
+    margin-right: -15px;
+}
+
+
+.faqtext{
+    aspect-ratio: 17/4;
+top: -20px;
+    position: absolute;
+    text-align: center;
+    background: #fff;
+    width: 600px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0,0.2);
+    margin-left: 30%;
+}
+.faqtext p{
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+.faqtext p:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.faq{
+    margin-top: 25px;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    position: relative;
+    margin-left: 45%;
+    padding-bottom: 40px;
+}
+.faq p{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.faq span{
+    width: 50px;
+    border-top: 1px solid black;
+    margin-top: 18px;
+}
+
+
+        /* details */
+
+.detail{
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+  background-color: #58FFF1;
+  width: 100%;
+  height: 100%;
+}
+.article{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.article .image{
+    padding-bottom: 10px;
+    mix-blend-mode:multiply;
+}
+.article img{
+    width: 300px;
+    height: 200px;
+}
+.details{
+    width: 900px;
+    font-size: 20px;
+}
+.details h2{
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+.details p{
+    padding-bottom: 5px;
+}
+.details span{
+    font-weight: 600;
+}
+
+                 /* Footer */
+.footer{
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.our-service{
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0,0.2);
+    background: #FFFF;
+    padding-top: 5%;
+    
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+   padding-bottom: 30px;
+   animation: footer linear;
+   
+
+}
+.services{
+    width: 320px;
+}
+.services i{
+    text-align: center;
+    font-size: 25vh;
+    color: rgba(22, 186, 91, 0.8);
+}
+.services h2{
+    font-size:5vh;
+}
+.services p{
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+}
+
+footer{
+  align-items: center;
+}
+footer p{
+    position: relative;
+    left: 20px;
+}
+footer p:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.licence{
+    display: flex;
+    justify-content: space-around;
+}
+footer .reseaux{
+
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+footer img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+@media screen and (max-width:1294px) {
+    
+    .services{
+        width: 260px;
+    }
+    .services i{
+        text-align: center;
+        font-size: 18vh;
+        color: rgba(22, 186, 91, 0.8);
+    }
+    .services h2{
+        font-size:2vh;
+    }
+    .services p{
+        text-align: center;
+        width: 220px;
+        font-size: 17px;
+    }
+
+    article{
+        width: 170px;
+    }
+    .type img{
+        object-fit: contain;
+        width: 120px;
+    }
+    .type{
+        gap: 30px;
+    }
+    article h4{
+        padding: 3px;
+
+    }
+    .faqtext{
+        position: absolute;
+        left:-40px;
+    }
+}
+
+@media screen and (max-width: 887px) {
+    
+    .services i{
+        text-align: center;
+        font-size: 13vh;
+        color: rgba(22, 186, 91, 0.8);
+    }
+    .services h2{
+        font-size:1.5vh;
+    }
+    .services p{
+        text-align: center;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .type{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .rectangle{
+        width: 80%;
+    }
+    .faqtext{
+        position: absolute;
+        width: 250px;
+    left: 0px;
+    }
+    .faqtext p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .our-service{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .details{
+        font-size: 12px;
+        width: 500px;
+    }
+    .detail img{
+        width: 100px;
+    }
+    .faq p{
+        font-size: 15px;
+    }
+    .faq span{
+        width: 5px;
+    }
+    .licence p{
+        font-size: 10px;
+    }
+    .faqtext{
+        position: absolute;
+        width: 200px;
+    left: -20px;
+    }
+    .Text{
+       font-size: 10px;
+    }
+    .Text input{
+        width: 70px;
+        font-size: 11px;
+    }
+    footer img{
+        width: 20px;
+        height: 22px;
+    }
+    .logo{
+        font-size: 12px;
+    }
+    .menu{
+
+    }
+}
